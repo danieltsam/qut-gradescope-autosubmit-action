@@ -1,6 +1,10 @@
 name: QUT Gradescope Autosubmission
 description: Automatically submit your code to QUT Gradescope whenever you push a change.
 
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+
 on:
   push:
     branches: [ main, master ]
