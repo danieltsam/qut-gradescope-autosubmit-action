@@ -1,4 +1,4 @@
-name: Auto Submit to Gradescope
+name: QUT Gradescope Autosubmission
 
 on:
   push:
