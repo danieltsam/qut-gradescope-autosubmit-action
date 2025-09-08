@@ -1,4 +1,5 @@
 name: QUT Gradescope Autosubmission
+description: Automatically submit your code to QUT Gradescope whenever you push a change, eliminating manual compression and upload on the Gradescope site.
 
 on:
   push:
