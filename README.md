@@ -5,6 +5,7 @@
 > Because automated browser login is fragile and prone to breaking in CI environments, we are moving away from running this process in GitHub Actions.
 > 
 > What to do instead:
+> 
 > •	Switch to the CLI Tool: Use the [CLI tool](https://github.com/danieltsam/qut-gradescope-autosubmitter) directly on your local machine.
 > 
 > •	Use Git Hooks: You can achieve the exact same automated workflow locally by configuring Git hooks via the CLI tool.
