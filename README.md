@@ -1,5 +1,11 @@
-# QUT Gradescope Autosubmission Action
-*This action is built on top of the [QUT Gradescope Auto Submitter CLI tool](https://github.com/danieltsam/qut-gradescope-autosubmitter). For local development and testing, consider installing the CLI tool directly.*
+# QUT Gradescope Autosubmission CI Action
+> [!WARNING]
+>  Deprecation Notice: GitHub Action Replaced by Git Hooks
+> This GitHub Action has been deprecated.
+> Because automated browser login is fragile and prone to breaking in CI environments, we are moving away from running this process in GitHub Actions.
+> What to do instead:
+> •	Switch to the CLI Tool: Use the [CLI tool](https://github.com/danieltsam/qut-gradescope-autosubmitter) directly on your local machine.
+> •	Use Git Hooks: You can achieve the exact same automated workflow locally by configuring Git hooks via the CLI tool.
 
 A GitHub Action that automatically submits your code to QUT Gradescope when you push changes. No more manual clicking through submission forms - just push your code and let the action handle the rest.
 
