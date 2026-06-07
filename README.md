@@ -1,6 +1,7 @@
 # QUT Gradescope Autosubmission CI Action
 > [!WARNING]
->  Deprecation Notice: GitHub Action Replaced by Git Hooks
+>  ## Deprecation Notice: GitHub Action Replaced by Git Hooks
+> 
 > This GitHub Action has been deprecated.
 > Because automated browser login is fragile and prone to breaking in CI environments, we are moving away from running this process in GitHub Actions.
 > 
